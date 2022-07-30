@@ -99,3 +99,15 @@ img{
     right: 30px;
     z-index: 33;
 }
+
+@media all and (max-width: 1000px){
+    .card{
+        width: calc(100% / 2);
+    }
+}
+
+@media all and (max-width: 600px){
+    .card{
+        width: calc(100% / 1);
+    }
+}
